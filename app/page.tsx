@@ -15,34 +15,31 @@ const stats = [
 ];
 
 const games = [
-  { title: "Cricket Betting", desc: "Live IPL, International matches, T20 leagues with competitive odds and real-time markets.", icon: "🏏" },
-  { title: "Football Leagues", desc: "Bet on Premier League, Champions League, La Liga, and Indian Super League events.", icon: "⚽" },
-  { title: "Live Casino", desc: "Enjoy live dealer streams of Teen Patti, Andar Bahar, Roulette, and Poker from home.", icon: "🃏" },
-  { title: "Tennis Matches", desc: "Place real-time bets on Grand Slams, ATP tour, and WTA tour tournaments.", icon: "🎾" },
-  { title: "Virtual Sports", desc: "Fast-paced digital cricket, football and racing simulations available 24 hours a day.", icon: "🎮" }
+  { title: "Cricket Betting", desc: "All live IPL matches, International fixtures, and T20 leagues odds", icon: "🏏" },
+  { title: "Football Leagues", desc: "Premier League, Champions League, Indian Super League, La Liga odds", icon: "⚽" },
+  { title: "Live Casino", desc: "Real-time Teen Patti, Andar Bahar, Roulette, and Poker dealers online", icon: "🃏" },
+  { title: "Tennis Matches", desc: "Live odds for all Grand Slam, ATP, and WTA tournaments", icon: "🎾" },
+  { title: "Virtual Sports", desc: "Digital Cricket, Football, and Horse Racing 247", icon: "🎮" }
 ];
 
 const features = [
-  { title: "Secure Payments", desc: "UPI, GPay, Paytm, PhonePe, and local bank transfers with 256-bit encryption.", icon: Shield },
-  { title: "Fast Payouts", desc: "Direct bank transfer withdrawals processed in 5-10 minutes flat.", icon: Zap },
-  { title: "Data Insights", desc: "Free prediction models, player stats, and historical head-to-head analysis.", icon: TrendingUp },
-  { title: "24/7 WhatsApp help", desc: "Dedicated personal relationship managers to assist you instantly.", icon: Headphones }
+  { title: "UPI/GPay", desc: "Safe deposits and withdrawals in UPI, PhonePe, Paytm, GooglePay, and local bank transfer with 256-bit encryption", icon: Shield },
+  { title: "Withdrawals", desc: "Instant bank withdrawal in 5-10 mins after a winning bet", icon: Zap },
+  { title: "Data Insights", desc: "Free prediction models, sports statistics, and player head-to-head analysis", icon: TrendingUp },
+  { title: "24/7 WhatsApp", desc: "Relationship managers available round the clock", icon: Headphones }
 ];
 
 const reviews = [
-  { name: "Rahul S.", location: "Mumbai", comment: "Withdrawal credited within 5 minutes! Best platform I've used.", rating: 5 },
-  { name: "Priya K.", location: "Delhi", comment: "Got my ID the same day. Super smooth process and amazing support team!", rating: 5 },
-  { name: "Vikram M.", location: "Bangalore", comment: "IPL betting experience was incredible. Real-time updates and fast payouts.", rating: 5 },
-  { name: "Ankit T.", location: "Pune", comment: "100% genuine platform. I trust Mahadev Book for all my betting.", rating: 5 },
-  { name: "Suresh P.", location: "Hyderabad", comment: "Best customer service! They resolved my issue in minutes via WhatsApp.", rating: 5 },
-  { name: "Riya N.", location: "Chennai", comment: "Mujhe bahut accha experience mila. Payout fast aur secure hai.", rating: 5 }
+  { name: "Rahul S.", location: "Mumbai", comment: "Withdrawn money in 5 mins! Best app I ever used.", rating: 5 },
+  { name: "Priya K.", location: "Delhi", comment: "Got my book id on the same day! Super fast and awesome support!", rating: 5 },
+  { name: "Vikram M.", location: "Bangalore", comment: "Won big on Ipl betting! Super fun betting with fast payouts.", rating: 5 }
 ];
 
 const trustPoints = [
-  { title: "Expertise", desc: "Built by sports & gaming veterans with 15+ years of proven innovation.", icon: Award },
-  { title: "Experience", desc: "Trusted by 1.2M+ users since 2018 with over 60M successful transactions.", icon: Check },
-  { title: "Authority", desc: "Recognized as India's leading betting platform by top industry awards.", icon: Shield },
-  { title: "Trust", desc: "SSL encrypted, PCI-DSS compliant, and fair play certified by iTech Labs.", icon: Lock }
+  { title: "Expertise", desc: "Sports betting experts with over 15+ years of successful experience", icon: Award },
+  { title: "Experience", desc: "Trusted by 1.2 million sports lovers across the country since 2018", icon: Check },
+  { title: "Authority", desc: "India's top sports betting portal awarded by reputed journalism outlets", icon: Shield },
+  { title: "Trust", desc: "SSL encrypted & certified by PCI DSS and other trusted security agencies like iTech Lab", icon: Lock }
 ];
 
 const faqs = [
@@ -81,10 +78,10 @@ const faqs = [
 ];
 
 const tickerItems = [
-  "🏆 USER_9921 WON ₹45,000 on CSK vs MI!",
-  "🔥 USER_8832 WON ₹1,20,000 on Teen Patti!",
-  "⚡ USER_4411 WITHDREW ₹75,000 in 4 mins!",
-  "🎯 USER_5782 WON ₹88,000 on IND vs AUS!"
+  "🏆 USER_9921 WON ₹45000 on CSK vs MI!",
+  "🔥 USER_8832 WON ₹120000 on Teen Patti!",
+  "⚡ USER_4411 WITHDREW ₹75000 in 4 mins!",
+  "🎯 USER_5782 WON ₹88000 on IND vs AUS!"
 ];
 
 export default function Home() {
@@ -110,7 +107,7 @@ export default function Home() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-600">OFFICIAL</span>
               </h1>
               <p className="text-xl md:text-2xl text-fuchsia-200/80 max-w-2xl font-light mb-8">
-                Welcome to Mahadev Book, the online betting game-changer of all time.
+                Welcome to Mahadev Book, the most trusted online betting solution worldwide.
               </p>
               <a href={whatsappUrl} className="inline-block bg-fuchsia-600 hover:bg-fuchsia-500 text-white px-8 py-5 text-lg font-bold uppercase tracking-widest rounded-xl shadow-[0_10px_40px_rgba(217,70,239,0.4)] transition-all transform hover:-translate-y-1">
                 Start Playing Now
@@ -147,7 +144,7 @@ export default function Home() {
               WHAT IS <br/><span className="text-fuchsia-500">MAHADEV BOOK?</span>
             </h2>
             <p className="text-lg text-fuchsia-200/70 mb-8">
-              We bridge the gap between players and premier sportsbooks. With a verified Mahadev Book ID, you gain access to a unified hub for cricket predictions, live odds, and casino events.
+              We are connecting you with the top sportsbooks in the world. With a verified Mahadev Book ID, you can access a complete source of cricket predictions, live odds, and casino games.
             </p>
           </div>
           

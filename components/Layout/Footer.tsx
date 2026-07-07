@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="space-y-5">
             <Logo />
             <p className="text-zinc-400 leading-relaxed font-light">
-              India's most trusted sports insights and fantasy analytics platform. Providing live odds, player analysis, and verified betting IDs nationwide since 2018.
+              India's most trusted sports insights and fantasy analytics platform. Delivering live odds, sports statistics, and verified betting IDs since 2018.
             </p>
             <div className="flex gap-3 text-amber-500">
               <Shield className="w-5 h-5 opacity-80" />
@@ -79,7 +79,7 @@ export default function Footer() {
               Get Started
             </h4>
             <p className="text-zinc-400 font-light leading-relaxed">
-              Create your secure betting profile in under 2 minutes and start placing smart bets today.
+              Create your betting account in under 2 minutes and start playing your favorite sports games.
             </p>
             <a
               href={whatsappUrl}
@@ -104,7 +104,7 @@ export default function Footer() {
             &copy; {currentYear} Mahadev Book. All rights reserved.
           </p>
           <p className="text-zinc-600 max-w-xl text-center md:text-right font-light">
-            Mahadev Book is an educational sports insights platform. All content is for informational purposes only. Play responsibly and at your own risk.
+            Mahadev Book is an educational sports insights portal. All information on this portal is for entertainment purposes only. Play all sports at your own risk. We are not responsible for any losses incurred due to incorrect information. This site is meant for users above 18 years of age. Always use a responsible gambling approach, and never invest more than you can afford to lose.
           </p>
         </div>
       </div>
