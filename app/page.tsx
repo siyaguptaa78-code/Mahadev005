@@ -11,20 +11,20 @@ import {
 const stats = [
   { value: '1.2M+', label: 'Active Users', desc: 'Trusted since 2018' },
   { value: '60K+', label: 'Events / Month', desc: 'Live sports & games' },
-  { value: '24/7', label: 'Support Speed', desc: 'Average response < 1m' }
+  { value: '24/7', label: 'Support Speed', desc: 'Avg response < 1m' }
 ];
 
 const games = [
   { title: "Cricket Betting", desc: "All live IPL matches, International fixtures, and T20 leagues odds", icon: "🏏" },
   { title: "Football Leagues", desc: "Premier League, Champions League, Indian Super League, La Liga odds", icon: "⚽" },
-  { title: "Live Casino", desc: "Real-time Teen Patti, Andar Bahar, Roulette, and Poker dealers online", icon: "🃏" },
+  { title: "Live Casino", desc: "Teen Patti, Andar Bahar, Roulette, Poker dealers in real-time", icon: "🃏" },
   { title: "Tennis Matches", desc: "Live odds for all Grand Slam, ATP, and WTA tournaments", icon: "🎾" },
   { title: "Virtual Sports", desc: "Digital Cricket, Football, and Horse Racing 247", icon: "🎮" }
 ];
 
 const features = [
-  { title: "UPI/GPay", desc: "Safe deposits and withdrawals in UPI, PhonePe, Paytm, GooglePay, and local bank transfer with 256-bit encryption", icon: Shield },
-  { title: "Withdrawals", desc: "Instant bank withdrawal in 5-10 mins after a winning bet", icon: Zap },
+  { title: "UPI/GPay", desc: "Secure deposits and withdrawals in UPI, PhonePe, Paytm, GooglePay and local bank transfers with 256-bit encryption", icon: Shield },
+  { title: "Withdrawals", desc: "Instant bank withdrawal in 5-10 mins after winning", icon: Zap },
   { title: "Data Insights", desc: "Free prediction models, sports statistics, and player head-to-head analysis", icon: TrendingUp },
   { title: "24/7 WhatsApp", desc: "Relationship managers available round the clock", icon: Headphones }
 ];
@@ -107,7 +107,7 @@ export default function Home() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-600">OFFICIAL</span>
               </h1>
               <p className="text-xl md:text-2xl text-fuchsia-200/80 max-w-2xl font-light mb-8">
-                Welcome to Mahadev Book, the most trusted online betting solution worldwide.
+                Welcome to Mahadev Book, world’s most reliable online betting portal.
               </p>
               <a href={whatsappUrl} className="inline-block bg-fuchsia-600 hover:bg-fuchsia-500 text-white px-8 py-5 text-lg font-bold uppercase tracking-widest rounded-xl shadow-[0_10px_40px_rgba(217,70,239,0.4)] transition-all transform hover:-translate-y-1">
                 Start Playing Now
@@ -144,7 +144,7 @@ export default function Home() {
               WHAT IS <br/><span className="text-fuchsia-500">MAHADEV BOOK?</span>
             </h2>
             <p className="text-lg text-fuchsia-200/70 mb-8">
-              We are connecting you with the top sportsbooks in the world. With a verified Mahadev Book ID, you can access a complete source of cricket predictions, live odds, and casino games.
+              We are connecting you to the worldwide leading sportsbooks. With your verified Mahadev Book ID you get access to the ultimate cricket prediction sites, odds portals and casino platforms.
             </p>
           </div>
           

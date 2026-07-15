@@ -104,7 +104,7 @@ export default function Footer() {
             &copy; {currentYear} Mahadev Book. All rights reserved.
           </p>
           <p className="text-zinc-600 max-w-xl text-center md:text-right font-light">
-            Mahadev Book is an educational sports insights portal. All information on this portal is for entertainment purposes only. Play all sports at your own risk. We are not responsible for any losses incurred due to incorrect information. This site is meant for users above 18 years of age. Always use a responsible gambling approach, and never invest more than you can afford to lose.
+            Mahadev Book is an educational sports insights portal. All information on this portal is for entertainment purposes only. Play all sports at your own risk. We are not responsible for any losses incurred due to incorrect information. This site is meant for users above 18 years of age. Always use a responsible gambling approach, and never invest more money than you are willing to lose.
           </p>
         </div>
       </div>
