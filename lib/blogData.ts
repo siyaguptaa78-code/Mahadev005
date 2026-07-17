@@ -115,5 +115,19 @@ export const blogPosts: BlogPost[] = [
       </ul>
       <p>Log into your Royal Book ID to access live odds, in-play statistics, and instant bet slips for every ball of the series.</p>
     `
+  },
+  {
+    slug: "fastest-ball-in-cricket",
+    title: "Fastest Ball In Cricket: The 100mph Club",
+    excerpt: "The fastest ball in cricket history — Shoaib Akhtar's 161.3 km/h — plus the full 100mph club, the fastest bowlers in the world today, and why the record still stands.",
+    date: "July 14, 2026",
+    category: "Cricket",
+    icon: "⚡",
+    readTime: "6 min read",
+    content: `
+      <p>One ball, twenty-three years, no one has gotten past it. Shoaib Akhtar's 100.23 mph (161.3 km/h) thunderer to Nick Knight at the 2003 World Cup stands as the fastest delivery ever bowled in an international match, the only ball to surpass 100 mph. Everything from biomechanics to strength & conditioning to speed guns has evolved since then, but not the number itself.</p>
+      <h3>The Fastest Ball Ever Bowled In Cricket</h3>
+      <p>It happened in Cape Town on 22 February 2003, during Pakistan's Pool A clash against England at the World Cup. Shoaib Akhtar – who'd been publicly campaigning to hit 100mph for three years – finally got his moment, and Nick Knight managed to clip the record ball to leg for no run, making for the most anti-climactic of conclusions to the story. The 'Rawalpindi Express' had already unofficially eclipsed the 100mph barrier twice in 2002, but it was in Cape Town that his 161.3 km/h (100.23 mph) delivery got officially certified as the fastest ever.</p>
+    `
   }
 ];

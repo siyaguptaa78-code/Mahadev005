@@ -1,5 +1,5 @@
 import { blogPosts } from "../../../lib/blogData";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Link from "next/link";
 import { Calendar, Clock, ChevronLeft } from "lucide-react";
 import type { Metadata } from "next";
@@ -35,9 +35,11 @@ export async function generateMetadata({
 }
 
 export async function generateStaticParams() {
-  return blogPosts.map((post) => ({
-    slug: post.slug,
-  }));
+  return blogPosts
+    .filter((post) => post.slug !== "fastest-ball-in-cricket")
+    .map((post) => ({
+      slug: post.slug,
+    }));
 }
 
 interface PageProps {
@@ -46,6 +48,9 @@ interface PageProps {
 
 export default async function BlogPostPage({ params }: PageProps) {
   const resolvedParams = await params;
+  if (resolvedParams.slug === "fastest-ball-in-cricket") {
+    redirect("/fastest-ball-in-cricket/");
+  }
   const post = blogPosts.find((p) => p.slug === resolvedParams.slug);
 
   if (!post) {
