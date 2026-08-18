@@ -1,110 +1,103 @@
 import React from 'react';
 import Link from 'next/link';
 import Logo from '../UI/Logo';
-import { Shield, CheckCircle, Heart, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-  const whatsappUrl = "https://wa.me/919412834207";
 
   return (
-    <footer className="bg-[#050505] border-t border-amber-500/10 text-zinc-400 text-sm font-sans relative overflow-hidden">
-      {/* Absolute faint background glow */}
-      <div className="absolute bottom-0 right-0 w-80 h-80 bg-amber-500/5 rounded-full blur-3xl pointer-events-none"></div>
-
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-16 relative z-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="bg-[#1a1a1a] border-t border-gray-800 text-gray-400 text-sm font-sans">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           
           {/* Column 1: Brand details */}
-          <div className="space-y-5">
+          <div className="space-y-6">
             <Logo />
-            <p className="text-zinc-400 leading-relaxed font-light">
-              India's most trusted sports insights and fantasy analytics platform. Delivering live odds, sports statistics, and verified betting IDs since 2018.
+            <p className="text-gray-400 leading-relaxed">
+              Discover the unrivaled excellence of Mahadev Book, the pinnacle of online betting in India. Immerse yourself in a world of passion and skill as you engage with like-minded players, embark on thrilling challenges, and unveil your true gaming potential.
             </p>
-            <div className="flex gap-3 text-amber-500">
-              <Shield className="w-5 h-5 opacity-80" />
-              <CheckCircle className="w-5 h-5 opacity-80" />
-              <Heart className="w-5 h-5 opacity-80 fill-current" />
-            </div>
           </div>
 
-          {/* Column 2: Navigation Links */}
-          <div className="space-y-4">
-            <h4 className="text-white font-semibold uppercase tracking-wider text-xs border-b border-amber-500/20 pb-2">
-              Quick Links
+          {/* Column 2: Support Links */}
+          <div className="space-y-6">
+            <h4 className="text-white font-bold uppercase tracking-wider text-sm">
+              SUPPORT
             </h4>
-            <ul className="space-y-2.5">
+            <ul className="space-y-3">
               <li>
-                <Link href="/" className="hover:text-amber-400 transition-colors">Home</Link>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Privacy & Policy</Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-amber-400 transition-colors">About Us</Link>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Terms & Conditions</Link>
               </li>
               <li>
-                <Link href="/blog" className="hover:text-amber-400 transition-colors">Insights Blog</Link>
+                <Link href="/about" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">About Us</Link>
               </li>
               <li>
-                <Link href="/mahadev-betting-app" className="hover:text-amber-400 transition-colors">Mahadev Betting App</Link>
+                <Link href="/contact" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Contact Us</Link>
               </li>
               <li>
-                <Link href="/mahadev-book-id" className="hover:text-amber-400 transition-colors">Mahadev Book ID</Link>
-              </li>
-              <li>
-                <Link href="/faq" className="hover:text-amber-400 transition-colors">FAQ</Link>
-              </li>
-              <li>
-                <Link href="/contact" className="hover:text-amber-400 transition-colors">Contact Support</Link>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Responsible Gaming</Link>
               </li>
             </ul>
           </div>
 
-          {/* Column 3: Partner Sites / Keywords */}
-          <div className="space-y-4">
-            <h4 className="text-white font-semibold uppercase tracking-wider text-xs border-b border-amber-500/20 pb-2">
-              Supported Platforms
+          {/* Column 3: Our Other Sites */}
+          <div className="space-y-6">
+            <h4 className="text-white font-bold uppercase tracking-wider text-sm">
+              OUR OTHER SITES
             </h4>
-            <ul className="space-y-2.5">
-              <li><span className="text-zinc-500">•</span> Gold365 Exchange</li>
-              <li><span className="text-zinc-500">•</span> Laser247 Official</li>
-              <li><span className="text-zinc-500">•</span> IPL Cricket Betting ID</li>
-              <li><span className="text-zinc-500">•</span> Online Betting ID India</li>
-              <li><span className="text-zinc-500">•</span> Mahadev Book Online Book</li>
-              <li><span className="text-zinc-500">•</span> Mahadev Book Official</li>
+            <ul className="space-y-3">
+              <li>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Gold365</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Laser247</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Reddy Bookie</Link>
+              </li>
             </ul>
           </div>
 
-          {/* Column 4: Contact and Badges */}
-          <div className="space-y-4">
-            <h4 className="text-white font-semibold uppercase tracking-wider text-xs border-b border-amber-500/20 pb-2">
-              Get Started
+          {/* Column 4: Our Games & Social */}
+          <div className="space-y-6">
+            <h4 className="text-white font-bold uppercase tracking-wider text-sm">
+              OUR GAMES
             </h4>
-            <p className="text-zinc-400 font-light leading-relaxed">
-              Create your betting account in under 2 minutes and start playing your favorite sports games.
-            </p>
-            <a
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-gradient-to-r from-yellow-400 to-amber-500 text-black font-extrabold px-5 py-3 rounded-xl hover:brightness-110 transition-all duration-300 shadow-md shadow-amber-500/10 w-full justify-center"
-            >
-              <MessageCircle className="w-4 h-4 fill-current" />
-              Chat on WhatsApp
-            </a>
-            <div className="flex justify-between items-center bg-[#111111] p-3 rounded-lg border border-zinc-800">
-              <span className="text-xs text-zinc-500 uppercase">SSL Secured</span>
-              <span className="text-xs text-amber-500 font-bold">18+ Play Responsibly</span>
+            <ul className="space-y-3">
+              <li>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Online Slots</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Online Casino</Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Cricket Betting</Link>
+              </li>
+            </ul>
+            <div className="flex gap-4 pt-4 text-white">
+              <a href="#" className="w-8 h-8 rounded-full bg-[#1877F2] flex items-center justify-center hover:opacity-80 transition-opacity text-white font-bold text-xs">
+                F
+              </a>
+              <a href="#" className="w-8 h-8 rounded-full bg-gradient-to-tr from-[#f09433] via-[#e6683c] to-[#bc1888] flex items-center justify-center hover:opacity-80 transition-opacity text-white font-bold text-xs">
+                IG
+              </a>
+              <a href="#" className="w-8 h-8 rounded-full bg-[#FF0000] flex items-center justify-center hover:opacity-80 transition-opacity text-white font-bold text-xs">
+                YT
+              </a>
             </div>
           </div>
 
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-12 pt-8 border-t border-zinc-900 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-          <p className="text-zinc-500 text-center md:text-left">
-            &copy; {currentYear} Mahadev Book. All rights reserved.
-          </p>
-          <p className="text-zinc-600 max-w-xl text-center md:text-right font-light">
+        <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col justify-center items-center gap-6 text-xs text-center">
+          <p className="text-gray-500 max-w-4xl leading-relaxed">
             Mahadev Book is an educational sports insights portal. All information on this portal is for entertainment purposes only. Play all sports at your own risk. We are not responsible for any losses incurred due to incorrect information. This site is meant for users above 18 years of age. Always use a responsible gambling approach, and never invest more money than you are willing to lose.
+          </p>
+          <p className="text-gray-500">
+            &copy; {currentYear} Mahadev Book. All rights reserved.
           </p>
         </div>
       </div>

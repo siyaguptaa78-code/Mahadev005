@@ -56,36 +56,36 @@ const structuredData = {
       mainEntity: [
         {
           "@type": "Question",
-          name: "What is Mahadev Book?",
+          name: "How do I create a new account?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Mahadev Book is India's top sports insights and fantasy analytics platform with an official website and mobile app.",
+            text: "To create an account, contact our support team via WhatsApp. They will provide you with the necessary verification steps and issue your login ID.",
           },
         },
         {
           "@type": "Question",
-          name: "How do I get a Mahadev Book ID?",
+          name: "What payment methods are supported?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "You can request a verified Mahadev Book ID via our WhatsApp support channel.",
+            text: "We accept standard Indian payment methods including UPI and major bank transfers. Please confirm the currently active payment details with our support team before initiating any transfer.",
           },
         },
         {
           "@type": "Question",
-          name: "Is Mahadev Book Online free?",
+          name: "How are withdrawals processed?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes, Mahadev Book Registration is free. Premium features require an upgrade.",
+            text: "Withdrawals are processed manually upon request. Send a withdrawal request through WhatsApp with your ID and registered payment details.",
           },
         },
         {
           "@type": "Question",
-          name: "Where can I download Mahadev Book App?",
+          name: "Is there an official mobile application?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Mahadev Book App can be downloaded from the official Mahadev Book Website.",
+            text: "Yes, we provide access to our mobile environment. You can request the installation link directly from our support staff once your account is active.",
           },
-        },
+        }
       ],
     },
   ],
@@ -108,7 +108,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className="min-h-full flex flex-col bg-[#050505] text-zinc-100 font-sans selection:bg-fuchsia-500/20 selection:text-fuchsia-300">
+      <body className="min-h-full flex flex-col bg-[#050505] text-zinc-100 font-sans selection:bg-[#ffbc00] selection:text-black">
         <Navbar />
         <main className="flex-grow pt-20">
           {children}
