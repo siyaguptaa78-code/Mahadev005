@@ -53,6 +53,21 @@ export default function Features() {
             </div>
           ))}
         </div>
+
+        <div className="mt-24">
+          <div className="text-center mb-10">
+            <h3 className="text-2xl md:text-3xl font-bold text-white mb-4">With One Verified Betting ID, You Can Access...</h3>
+            <p className="text-gray-400">A single account provides entry to our complete premium catalog.</p>
+          </div>
+          <div className="flex flex-wrap justify-center gap-4">
+            {['Cricket', 'Football', 'Tennis', 'Basketball', 'Casino', 'Live Casino', 'Slots', 'Horse Racing'].map((game, idx) => (
+              <div key={idx} className="bg-[#111111] border border-gray-800 rounded-full px-6 py-3 text-white font-medium hover:border-[#ffbc00] transition-colors flex items-center shadow-sm">
+                <span className="w-2 h-2 rounded-full bg-[#ffbc00] mr-3"></span>
+                {game}
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   );

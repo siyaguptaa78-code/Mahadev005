@@ -1,56 +1,59 @@
 import React from 'react';
+import Image from 'next/image';
 
 export default function InformationSections() {
   return (
-    <section className="py-24 px-4 sm:px-6 lg:px-12 bg-[#0a0a0a]">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-16">
+    <section className="py-24 px-4 sm:px-6 lg:px-12 bg-[#111111] border-y border-gray-900">
+      <div className="max-w-7xl mx-auto space-y-12">
         
-        <div className="lg:w-1/3">
-          <h2 className="text-3xl font-bold text-white mb-6 sticky top-28">
-            Platform Operations & Guidelines
-          </h2>
+        {/* Section 1: About */}
+        <div className="bg-[#1a1a1a] rounded-2xl p-8 md:p-12 border border-gray-800">
+          <div className="flex justify-start mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#ffbc00]">
+              About Mahadev Book
+            </h2>
+          </div>
+          <div className="text-gray-300 space-y-6 text-sm md:text-base leading-relaxed">
+            <p>
+              Mahadev Book is an online betting and gaming platform built for players who want variety, reliability, and a secure <span className="text-[#ffbc00]">live cricket betting</span> experience in India. We cover a wide range of betting markets, including cricket, football, and tennis, as well as real-money gaming options such as live dealer games and casino games. Every match and game session runs on competitive odds, secure transactions, and stable technology designed to keep gameplay smooth even under high traffic.
+            </p>
+            <p>
+              Whether you're placing a sports betting wager on a live match or joining a live dealer table for real-time casino action, Mahadev Book brings betting markets and gaming options together under one platform built for consistency and reliability across India.
+            </p>
+          </div>
         </div>
-        
-        <div className="lg:w-2/3 space-y-12">
-          <div>
-            <h3 className="text-2xl font-bold text-[#ffbc00] mb-4">How to Obtain an Account ID</h3>
-            <div className="text-gray-400 leading-relaxed space-y-4">
+
+        {/* Section 2: Mission */}
+        <div className="bg-[#1a1a1a] rounded-2xl overflow-hidden border border-gray-800 flex flex-col md:flex-row">
+          <div className="md:w-2/5 relative h-72 md:h-auto">
+            <Image 
+              src="/mission_image.jpg"
+              alt="Mission and Responsibility"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 100vw, 40vw"
+            />
+          </div>
+          <div className="md:w-3/5 p-8 md:p-12">
+            <h3 className="text-2xl md:text-3xl font-bold text-[#ffbc00] mb-6">
+              Who We Are: Mission & Responsibility
+            </h3>
+            <div className="text-gray-300 space-y-6 text-sm md:text-base leading-relaxed">
               <p>
-                Unlike standard automated registration platforms, Mahadev Book utilizes a direct communication model to ensure user authenticity and provide immediate assistance.
+                At Mahadev Book, our mission is to provide a secure, user-friendly, and highly rewarding online betting and <span className="text-[#ffbc00]">responsible gaming</span> environment for every player.
               </p>
-              <ul className="list-disc pl-5 space-y-2 mt-4 text-gray-300">
-                <li>Initiate a request via our official WhatsApp support number.</li>
-                <li>Our team will guide you through the verification process.</li>
-                <li>Once confirmed, you will receive your unique login credentials and platform ID directly in the chat.</li>
+              <p>
+                Every part of that experience is backed by real safety protocols.
+              </p>
+              <ul className="list-disc pl-5 space-y-2 text-[#ffbc00]">
+                <li><span className="text-gray-300">Encrypted transactions protect your funds.</span></li>
+                <li><span className="text-gray-300">Strict privacy policies safeguard your data.</span></li>
+                <li><span className="text-gray-300">Dedicated support for a seamless experience.</span></li>
               </ul>
             </div>
           </div>
-          
-          <div className="border-t border-gray-800 pt-12">
-            <h3 className="text-2xl font-bold text-[#ffbc00] mb-4">Payment & Withdrawal Methods</h3>
-            <div className="text-gray-400 leading-relaxed space-y-4">
-              <p>
-                We support standardized Indian payment gateways to ensure accessible transactions for our users. All deposit and withdrawal requests are processed through our support team.
-              </p>
-              <p>
-                Supported methods include standard UPI applications and bank transfers. Withdrawal requests must be initiated via WhatsApp, and processing times depend on standard banking operational hours.
-              </p>
-            </div>
-          </div>
-          
-          <div className="border-t border-gray-800 pt-12">
-            <h3 className="text-2xl font-bold text-[#ffbc00] mb-4">Responsible Gaming Policy</h3>
-            <div className="text-gray-400 leading-relaxed space-y-4">
-              <p>
-                Mahadev Book is committed to promoting a responsible environment. Sports betting and casino games involve financial risk and should be treated as entertainment, not a reliable source of income.
-              </p>
-              <p>
-                Users must be 18 years or older to participate. We strongly advise setting personal limits and never risking funds required for essential daily living. If you require assistance regarding your usage, please contact our support team.
-              </p>
-            </div>
-          </div>
         </div>
-        
+
       </div>
     </section>
   );

@@ -43,10 +43,10 @@ export default function Introduction() {
               
               <div className="absolute inset-4 rounded-2xl overflow-hidden shadow-2xl bg-black">
                 <Image 
-                  src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1000&auto=format&fit=crop" 
-                  alt="Sports betting environment" 
+                  src="https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=1000&auto=format&fit=crop" 
+                  alt="Sports Betting and Casino Environment" 
                   fill
-                  className="object-cover opacity-80 mix-blend-luminosity"
+                  className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>

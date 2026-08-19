@@ -8,19 +8,39 @@ const categories = [
     image: "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?q=80&w=800&auto=format&fit=crop"
   },
   {
+    title: "Football",
+    desc: "Bet on major leagues like EPL, La Liga, Champions League and international tournaments.",
+    image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    title: "Tennis",
+    desc: "Follow the Grand Slams, ATP, and WTA tours with comprehensive betting options.",
+    image: "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    title: "Basketball",
+    desc: "Action-packed markets for NBA, EuroLeague, and international competitions.",
+    image: "https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    title: "Horse Racing",
+    desc: "Daily races from top tracks worldwide with competitive odds.",
+    image: "/horse_racing.jpg"
+  },
+  {
     title: "Online Casino",
-    desc: "Experience virtual table games, card games, and live dealer environments.",
+    desc: "Experience virtual table games, card games, and interactive environments.",
     image: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    title: "Live Casino",
+    desc: "Real-time action with professional live dealers in authentic studio settings.",
+    image: "/live_casino.jpg"
   },
   {
     title: "Online Slots",
     desc: "A wide variety of interactive slot games featuring different themes and mechanics.",
-    image: "https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=800&auto=format&fit=crop"
-  },
-  {
-    title: "Global Sports",
-    desc: "Markets available for football, tennis, and other major sporting events worldwide.",
-    image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=800&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=800&auto=format&fit=crop"
   }
 ];
 

@@ -42,20 +42,29 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Column 3: Our Other Sites */}
+          {/* Column 3: Partner Websites */}
           <div className="space-y-6">
             <h4 className="text-white font-bold uppercase tracking-wider text-sm">
-              OUR OTHER SITES
+              PARTNER WEBSITES
             </h4>
             <ul className="space-y-3">
               <li>
-                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Gold365</Link>
+                <Link href="https://reddybookie.site/" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Reddy Bookie</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Laser247</Link>
+                <Link href="https://reddybookie.live/" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Reddy Bookie Live</Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Reddy Bookie</Link>
+                <Link href="https://mahadevbookie.site/" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Mahadev Bookie Site</Link>
+              </li>
+              <li>
+                <Link href="https://mahadevbookie.shop/" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Mahadev Bookie Shop</Link>
+              </li>
+              <li>
+                <Link href="https://bet-vault.com/" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Bet Vault</Link>
+              </li>
+              <li>
+                <Link href="https://reddybookie.site/" className="hover:text-yellow-400 transition-colors underline decoration-transparent hover:decoration-yellow-400 underline-offset-4">Reddy Bookie Site</Link>
               </li>
             </ul>
           </div>

@@ -10,15 +10,15 @@ export default function Hero() {
       {/* Background Image using Next/Image for optimization */}
       <div className="absolute inset-0 z-0">
         <Image 
-          src="https://images.unsplash.com/photo-1518133910546-b6c2fb7d79e3?q=80&w=2000&auto=format&fit=crop" 
-          alt="" 
+          src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?q=80&w=2000&auto=format&fit=crop" 
+          alt="Premium Sports Background" 
           fill
           priority
-          className="object-cover object-right"
+          className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/90 to-transparent"></div>
-        <div className="absolute inset-0 bg-black/40"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#111111] via-[#111111]/90 to-[#111111]/40"></div>
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
       
       <div className="max-w-7xl mx-auto relative z-10 w-full flex flex-col md:flex-row items-center justify-between gap-10">
